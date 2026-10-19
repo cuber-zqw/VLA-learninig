@@ -1,0 +1,9 @@
+{
+  "physics_pass": true,
+  "render_pass": false,
+  "steps": 480,
+  "timestep": 0.004166666666666667,
+  "start_z": 0.6000000238418579,
+  "final_z": 0.04999995604157448,
+  "note": "SAPIEN 基础验证，尚非 RoboTwin 专家任务；positions 是物体位置，不是机械臂动作。"
+}

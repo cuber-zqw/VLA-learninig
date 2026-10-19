@@ -1,0 +1,11 @@
+.venv*/
+tools/
+.cache/
+RoboTwin/
+__pycache__/
+*.pyc
+.env
+.env.*
+models/
+checkpoints/
+data/
