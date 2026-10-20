@@ -1,0 +1,7 @@
+Using Python 3.10.22 environment at: .venv-robotwin
+Resolved 72 packages in 5.40s
+   Building nvidia-curobo @ file:///home/zqw/VLA-learning/RoboTwin/envs/curobo
+      Built nvidia-curobo @ file:///home/zqw/VLA-learning/RoboTwin/envs/curobo
+Prepared 1 package in 5m 36s
+Installed 1 package in 0.57ms
+ + nvidia-curobo==0.7.8 (from file:///home/zqw/VLA-learning/RoboTwin/envs/curobo)

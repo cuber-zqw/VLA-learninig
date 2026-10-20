@@ -1,0 +1,26 @@
+{
+  "task": "stack_blocks_two",
+  "expert_task_pass": true,
+  "attempts": [
+    {
+      "seed": 0,
+      "plan_success": true,
+      "success": true
+    }
+  ],
+  "seed": 0,
+  "replay_success": true,
+  "frames": 325,
+  "block1_position": [
+    -0.0005087140016257763,
+    -0.1291397511959076,
+    0.765000581741333
+  ],
+  "block2_position": [
+    0.0003301311517134309,
+    -0.1286613941192627,
+    0.8150019645690918
+  ],
+  "hdf5": "data/episode0.hdf5",
+  "video": "video/episode0.mp4"
+}

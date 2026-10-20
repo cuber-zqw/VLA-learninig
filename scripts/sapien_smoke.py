@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 os.environ.setdefault('XDG_CACHE_HOME', str(ROOT / '.cache'))
 parser = argparse.ArgumentParser()
 parser.add_argument('--render', action='store_true')
+parser.add_argument('--output-dir', type=Path, default=ROOT / '2026-10-19' / 'sapien_smoke')
 args = parser.parse_args()
 if args.render:
     probe = subprocess.run(['nvidia-smi'], capture_output=True, text=True)
@@ -19,7 +20,7 @@ import numpy as np
 import sapien
 import imageio.v2 as imageio
 
-out = ROOT / '2026-10-19' / 'sapien_smoke'
+out = args.output_dir.resolve()
 out.mkdir(parents=True, exist_ok=True)
 systems = [sapien.physx.PhysxCpuSystem()]
 if args.render:

@@ -1,0 +1,9 @@
+Using Python 3.10.22 environment at: .venv-sim
+Resolved 6 packages in 2.21s
+Downloading scipy (32.8MiB)
+ Downloaded scipy
+Prepared 3 packages in 20.64s
+Installed 3 packages in 23ms
+ + scipy==1.10.1
+ + six==1.17.0
+ + trimesh==4.4.3

@@ -1,0 +1,21 @@
+{
+  "cuda_compute_pass": true,
+  "backward_pass": true,
+  "torch": "2.7.1+cu128",
+  "cuda_runtime": "12.8",
+  "device": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "compiled_arches": [
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120",
+    "compute_120"
+  ],
+  "max_abs_matmul_error": 4.1961669921875e-05
+}

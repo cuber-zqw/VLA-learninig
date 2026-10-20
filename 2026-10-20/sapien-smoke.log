@@ -1,0 +1,12 @@
+/home/zqw/VLA-learning/scripts/sapien_smoke.py:51: DeprecationWarning: component.set_pose can be ambiguous thus deprecated. It is equivalent to component.set_entity_pose, which should be used instead
+  camera.set_pose(sapien.Pose(matrix))
+{
+  "physics_pass": true,
+  "render_pass": true,
+  "steps": 480,
+  "timestep": 0.004166666666666667,
+  "start_z": 0.6000000238418579,
+  "final_z": 0.04999995604157448,
+  "note": "SAPIEN 基础验证，尚非 RoboTwin 专家任务；positions 是物体位置，不是机械臂动作。"
+}
+输出目录: /home/zqw/VLA-learning/2026-10-20/sapien_smoke

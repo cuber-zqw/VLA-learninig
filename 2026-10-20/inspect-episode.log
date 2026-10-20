@@ -1,0 +1,292 @@
+{
+  "file": "/home/zqw/VLA-learning/2026-10-20/expert/data/episode0.hdf5",
+  "datasets": {
+    "endpose/left_endpose": {
+      "shape": [
+        325,
+        7
+      ],
+      "dtype": "float64",
+      "finite": true,
+      "min": -0.4971349940484345,
+      "max": 1.0820423364639282
+    },
+    "endpose/left_gripper": {
+      "shape": [
+        325
+      ],
+      "dtype": "float64",
+      "finite": true,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "endpose/right_endpose": {
+      "shape": [
+        325,
+        7
+      ],
+      "dtype": "float64",
+      "finite": true,
+      "min": -0.3128008544445038,
+      "max": 0.9410034418106079
+    },
+    "endpose/right_gripper": {
+      "shape": [
+        325
+      ],
+      "dtype": "float64",
+      "finite": true,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "joint_action/left_arm": {
+      "shape": [
+        325,
+        6
+      ],
+      "dtype": "float64",
+      "finite": true,
+      "min": -1.339092493057251,
+      "max": 2.349884271621704
+    },
+    "joint_action/left_gripper": {
+      "shape": [
+        325
+      ],
+      "dtype": "float64",
+      "finite": true,
+      "min": 0.0,
+      "max": 1.0
+    },
+    "joint_action/right_arm": {
+      "shape": [
+        325,
+        6
+      ],
+      "dtype": "float64",
+      "finite": true,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "joint_action/right_gripper": {
+      "shape": [
+        325
+      ],
+      "dtype": "float64",
+      "finite": true,
+      "min": 1.0,
+      "max": 1.0
+    },
+    "joint_action/vector": {
+      "shape": [
+        325,
+        14
+      ],
+      "dtype": "float64",
+      "finite": true,
+      "min": -1.339092493057251,
+      "max": 2.349884271621704
+    },
+    "observation/front_camera/cam2world_gl": {
+      "shape": [
+        325,
+        4,
+        4
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": -0.995037317276001,
+      "max": 1.0
+    },
+    "observation/front_camera/extrinsic_cv": {
+      "shape": [
+        325,
+        3,
+        4
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": -0.9950371980667114,
+      "max": 1.0000001192092896
+    },
+    "observation/front_camera/intrinsic_cv": {
+      "shape": [
+        325,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": 0.0,
+      "max": 358.6421813964844
+    },
+    "observation/front_camera/rgb": {
+      "shape": [
+        325
+      ],
+      "dtype": "|S36998"
+    },
+    "observation/head_camera/cam2world_gl": {
+      "shape": [
+        325,
+        4,
+        4
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": -0.6000000834465027,
+      "max": 1.350000023841858
+    },
+    "observation/head_camera/extrinsic_cv": {
+      "shape": [
+        325,
+        3,
+        4
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": -0.800000011920929,
+      "max": 1.350000023841858
+    },
+    "observation/head_camera/intrinsic_cv": {
+      "shape": [
+        325,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": 0.0,
+      "max": 358.6421813964844
+    },
+    "observation/head_camera/rgb": {
+      "shape": [
+        325
+      ],
+      "dtype": "|S38087"
+    },
+    "observation/left_camera/cam2world_gl": {
+      "shape": [
+        325,
+        4,
+        4
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": -0.9208913445472717,
+      "max": 1.085181474685669
+    },
+    "observation/left_camera/extrinsic_cv": {
+      "shape": [
+        325,
+        3,
+        4
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": -0.9587520360946655,
+      "max": 1.0
+    },
+    "observation/left_camera/intrinsic_cv": {
+      "shape": [
+        325,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": 0.0,
+      "max": 358.6421813964844
+    },
+    "observation/left_camera/rgb": {
+      "shape": [
+        325
+      ],
+      "dtype": "|S40479"
+    },
+    "observation/right_camera/cam2world_gl": {
+      "shape": [
+        325,
+        4,
+        4
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": -0.9210199117660522,
+      "max": 1.0060038566589355
+    },
+    "observation/right_camera/extrinsic_cv": {
+      "shape": [
+        325,
+        3,
+        4
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": -0.9210658073425293,
+      "max": 0.9999501705169678
+    },
+    "observation/right_camera/intrinsic_cv": {
+      "shape": [
+        325,
+        3,
+        3
+      ],
+      "dtype": "float32",
+      "finite": true,
+      "min": 0.0,
+      "max": 358.6421813964844
+    },
+    "observation/right_camera/rgb": {
+      "shape": [
+        325
+      ],
+      "dtype": "|S29478"
+    },
+    "pointcloud": {
+      "shape": [
+        325,
+        0
+      ],
+      "dtype": "float64"
+    }
+  },
+  "images": {
+    "observation/front_camera/rgb": {
+      "records": 325,
+      "decoded_shape": [
+        240,
+        320,
+        3
+      ]
+    },
+    "observation/head_camera/rgb": {
+      "records": 325,
+      "decoded_shape": [
+        240,
+        320,
+        3
+      ]
+    },
+    "observation/left_camera/rgb": {
+      "records": 325,
+      "decoded_shape": [
+        240,
+        320,
+        3
+      ]
+    },
+    "observation/right_camera/rgb": {
+      "records": 325,
+      "decoded_shape": [
+        240,
+        320,
+        3
+      ]
+    }
+  },
+  "grid_video": "four_cameras.mp4",
+  "frames": 325,
+  "joint_action_semantics": "Left 6 joint drive targets [rad], commanded left gripper [0,1], right 6 joint drive targets [rad], commanded right gripper [0,1]. These arm values come from get_drive_target(), not measured articulation qpos.",
+  "timing_note": "Simulation timestep is 1/250 s. save_freq=15 within each movement; movement boundaries add extra samples, so do not infer uniform timestamps from row indices. The upstream mp4 is encoded at 30 fps and is not a physical-time clock."
+}

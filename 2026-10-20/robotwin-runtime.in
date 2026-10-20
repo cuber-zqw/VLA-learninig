@@ -1,0 +1,25 @@
+# torch is installed separately from the official cu128 index.
+# Minimal runtime for clean RGB + qpos + endpose collection; no point clouds/LLM API.
+sapien==3.0.0b1
+numpy==1.26.4
+scipy==1.10.1
+mplib==0.2.1
+toppra==0.6.3
+transforms3d==0.4.2
+gymnasium==0.29.1
+trimesh==4.4.3
+open3d==0.18.0
+imageio==2.34.2
+h5py
+pyyaml
+opencv-python-headless==4.11.0.86
+pydantic
+termcolor
+matplotlib
+setuptools==69.5.1
+wheel
+ninja
+warp-lang==1.12.0
+omegaconf
+einops
+pybind11
